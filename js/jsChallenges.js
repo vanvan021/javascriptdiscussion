@@ -15,39 +15,3 @@ document.addEventListener("click", function() {
 });
 
 
-// Challenge 2
-document.addEventListener('DOMContentLoaded', function() {
-    var checkbox = document.getElementById('sameAddress');
-    var homeAddress = document.getElementById('home');
-    var billingAddress = document.getElementById('bill');
-
-    checkbox.addEventListener('change', function() {
-      if (this.checked) {
-        homeAddress.value = billingAddress.value;
-        homeAddress.disabled = true;
-      } else {
-        homeAddress.disabled = false;
-      }
-    });
-  });
-
-// Challenge 3
-document.addEventListener('DOMContentLoaded', function() {
-    var checkbox = document.getElementById('sameAddress');
-    var homeAddress = document.getElementById('home');
-    var billingAddress = document.getElementById('bill');
-    var homeCity = document.getElementById('homeCity');
-    var billingCity = document.getElementById('billCity');
-
-    checkbox.addEventListener('change', function() {
-      if (this.checked) {
-        homeAddress.value = billingAddress.value;
-        homeAddress.disabled = true;
-        homeCity.value = billingCity.value;
-        homeCity.disabled = true;
-      } else {
-        homeAddress.disabled = false;
-        homeCity.disabled = false;
-      }
-    });
-  });
