@@ -1,4 +1,6 @@
 # js_challenges_class_exercise
+# https://vanvan021.github.io/javascriptdiscussion/
+# 👆 visit
 Starter Code for the JavaScript challenges
 
 JavaScript Challenges
